@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.23)
+project(cppLearning)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(cppLearning
+        Math/close_nums_comparison.cpp
+        section10/assignment.cpp
+        section10/cppstr.cpp
+        section10/cstrings.cpp
+        section10/cstrings2.cpp
+        section10/cypher.cpp
+        section10/test.cpp
+        Section11/randoms.cpp
+        section5/cppStructure.cpp
+        section5/io.cpp
+        section5/io2.cpp
+        section5/io3.cpp
+        section5/test.cpp
+        section6/const.cpp
+        section6/const2.cpp
+        section6/global.cpp
+        section6/primitives.cpp
+        section6/sizeof.cpp
+        section6/variables.cpp
+        section7/arrays.cpp
+        section7/arrays2.cpp
+        section7/challenge.cpp
+        section7/filling.cpp
+        section7/mdArrays.cpp
+        section7/mdVectors.cpp
+        section7/vectors.cpp
+        section7/vectors2.cpp
+        section7/vectors3.cpp
+        section7/vectors4.cpp
+        section8/assignmentOperator.cpp
+        section8/challenge.cpp
+        section8/equlity.cpp
+        section8/incrementOperator.cpp
+        section8/mathOps.cpp
+        section8/mixedOperations.cpp
+        section9/dowhile.cpp
+        section9/if.cpp
+        section9/loops.cpp
+        section9/menu.cpp
+        section9/nestedloops.cpp
+        section9/rangeloops.cpp
+        section9/shipping.cpp
+        section9/whileloop.cpp)
